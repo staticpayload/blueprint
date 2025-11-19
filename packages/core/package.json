@@ -32,7 +32,7 @@
         "dev": "run-p \"compile:esm --watch\" \"compile:css --watch\"",
         "dist": "run-s \"dist:*\"",
         "dist:css": "css-dist lib/css",
-        "dist:variables": "generate-css-variables --retainDefault true ../../colors/src/_colors.scss common/_color-aliases.scss common/_variables.scss",
+        "dist:variables": "generate-css-variables --retainDefault true ../../colors/src/_colors.scss ../../colors/src/_palette.scss common/_color-aliases.scss common/_variables.scss",
         "dist:verify": "assert-package-layout",
         "lint": "run-p lint:scss lint:es",
         "lint:scss": "sass-lint",

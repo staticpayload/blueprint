@@ -249,6 +249,7 @@ export interface Color {
 export type PaletteColor = keyof Color;
 export type PaletteColorFamily = keyof typeof paletteBase;
 export type PaletteColorValue = (typeof paletteBase)[PaletteColorFamily][PaletteColor];
+
 /**
  * Main Palette export.
  * Provides base, light, and dark variants.
