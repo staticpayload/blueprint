@@ -2,9 +2,11 @@
  * Copyright 2025 Palantir Technologies, Inc. All rights reserved.
  */
 
+// Import the CSS custom property definitions from the non-partial file
+@import "palette";
+
 // Sass variables that map to CSS custom properties
 // These reference the CSS variables, allowing theme switching to work automatically
-// Import the non-partial palette.scss file to get the CSS variable definitions
 
 // Greys
 $bp-grey-100: var(--bp-grey-100);

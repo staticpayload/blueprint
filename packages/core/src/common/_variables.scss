@@ -1,6 +1,11 @@
 // Copyright 2015 Palantir Technologies, Inc. All rights reserved.
 // Licensed under the Apache License, Version 2.0.
 
+// Import legacy colors for $black, $white, etc.
+@import "@blueprintjs/colors/lib/scss/colors";
+// Import palette variables for $bp-* variables
+@import "@blueprintjs/colors/lib/scss/palette";
+
 @import "color-aliases";
 @import "mixins";
 
