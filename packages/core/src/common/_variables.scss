@@ -9,6 +9,9 @@
 @import "color-aliases";
 @import "mixins";
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "@fontsource/jetbrains-mono/index.css";
+
 // ----------------------------------------------------------------------------
 // This file is part of the public Sass API of @blueprintjs/core.
 // As such, it comes with important considerations:
@@ -50,6 +53,7 @@ $pt-icon-size-large: $pt-spacing * 5 !default;
 // see https://bitsofco.de/the-new-system-font-stack/
 $pt-font-family:
   -apple-system,
+  "Inter",
   "BlinkMacSystemFont",
   "Segoe UI",
   "Roboto",
@@ -62,7 +66,7 @@ $pt-font-family:
   // support inline Blueprint icons
   sans-serif !default;
 
-$pt-font-family-monospace: monospace !default;
+$pt-font-family-monospace: "JetBrains Mono", monospace !default;
 
 $pt-font-size: $pt-spacing * 3.5 !default;
 $pt-font-size-large: $pt-spacing * 4 !default;

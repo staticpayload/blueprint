@@ -34,6 +34,7 @@
         "verify": "npm-run-all -s compile dist -p test lint format-check"
     },
     "dependencies": {
+        "@fontsource/jetbrains-mono": "^5.2.8",
         "@lerna-lite/cli": "^3.11.0",
         "@lerna-lite/version": "^3.11.0",
         "@types/chai": "~4.3.11",
